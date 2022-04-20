@@ -1,0 +1,78 @@
+html,body{
+    margin: 0px;
+    width: 100%;
+}
+#encabezado{
+    background-color: rgba(53, 58, 64, 1);
+    color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.portada{
+    height: 700px;
+    position: center;
+    background-image: url("ba1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    width: 100%;
+}
+.dentro{
+    position: absolute;
+    width: 650px;
+    color: #f0f0f0;
+    text-align: right;
+    padding-right: 140px;
+    padding-top: 120px;
+    
+
+}
+
+.card{
+    border:0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0,0,0,0.5);
+
+}
+.subd{
+    color:#f0f0f0 !important;
+}
+#boton{
+    background-color: rgb(150, 201, 62);
+    color: white;
+}
+#label{
+    color:rgba(108,117,125);
+}
+.hawai{
+    background-image: url("honolulu.jpg");
+    height: 500px;
+    width: 3700px;
+    position: center;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.wrapper{
+    background-color: rgba(53, 58, 64);
+    color:#f0f0f0;
+}
+#contenedor-formulario{
+    background: #fbfafa ;
+    border-radius: 5px;
+    max-width: 750px;
+    
+}
+.borde{
+    border-style: dotted;
+    border-width: 0px 0px 1px 0px;
+    border-color: 660033;
+}
+
+footer{
+    background-color: rgb(29, 57, 71);
+    color:#f0f0f0;
+    font-weight: 20px;
+}
